@@ -29,3 +29,6 @@ app.use('/api/users', userRoutes);
 
 const rideRoutes = require('./routes/rides');
 app.use('/api/rides', rideRoutes);
+
+const paymentRoutes = require('./routes/payments');
+app.use('/api/payments', paymentRoutes);
