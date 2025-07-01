@@ -26,3 +26,6 @@ app.listen(port, () => {
 });
 const userRoutes = require('./routes/users');
 app.use('/api/users', userRoutes);
+
+const rideRoutes = require('./routes/rides');
+app.use('/api/rides', rideRoutes);
